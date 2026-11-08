@@ -16272,6 +16272,71 @@
                 max-height: calc(100vh - 48px) !important;
                 box-sizing: border-box !important;
               }
+              .aag-menu.aag-discovery {
+                width: 520px !important;
+                max-width: calc(100vw - 32px) !important;
+                max-height: 480px !important;
+              }
+              .aag-discovery button.aag-discovery-row {
+                padding: 8px 12px !important;
+                gap: 12px !important;
+              }
+              .aag-discovery-name {
+                font-size: 13.5px !important;
+                font-weight: 500 !important;
+              }
+              .agt-compact {
+                max-height: 400px !important;
+                overflow-y: auto !important;
+              }
+              .agt-compact-row {
+                display: flex !important;
+                align-items: center !important;
+                padding: 6px 10px !important;
+                gap: 8px !important;
+              }
+              .agt-compact-row > button:first-child {
+                flex: 1 1 auto !important;
+                min-width: 0 !important;
+                display: flex !important;
+                align-items: center !important;
+                gap: 12px !important;
+              }
+              .agt-compact-row > button:first-child > span {
+                flex: 1 1 auto !important;
+                min-width: 0 !important;
+                font-size: 13.5px !important;
+                font-weight: 500 !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                white-space: nowrap !important;
+              }
+              .agt-compact-row small,
+              .agt-compact-row > button:first-child > small {
+                display: inline-flex !important;
+                align-items: center !important;
+                white-space: nowrap !important;
+                flex-shrink: 0 !important;
+                font-size: 11px !important;
+                font-weight: 500 !important;
+                padding: 2px 8px !important;
+                border-radius: 12px !important;
+                background: rgba(99, 102, 241, 0.18) !important;
+                color: #a5b4fc !important;
+                border: 1px solid rgba(99, 102, 241, 0.3) !important;
+                margin-left: auto !important;
+                margin-right: 4px !important;
+                line-height: 1.4 !important;
+              }
+              .agt-compact-row .agt-eye-btn,
+              .agt-compact-row > button:last-child {
+                flex-shrink: 0 !important;
+                opacity: 0.7 !important;
+              }
+              .agt-compact-row:hover .agt-eye-btn,
+              .agt-compact-row:hover > button:last-child {
+                opacity: 1 !important;
+              }
             `;
           }, "dsh-responsive-layout-fix");
 
